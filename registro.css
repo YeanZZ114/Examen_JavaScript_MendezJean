@@ -1,0 +1,66 @@
+#evento1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5%;
+    background-color: rgb(215, 172, 255); /* mismo morado claro */
+    padding: 3%;
+    border: 12px solid rgb(0, 0, 0); /* borde grueso negro */
+    border-radius: 20px;
+  }
+  
+  #evento1 h2 {
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #evento1 p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  
+  #evento1 label {
+    display: block;
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  #evento1 input[type="text"],
+  #evento1 input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 12px;
+    border: 2px solid black;
+    background-color: white;
+    box-sizing: border-box;
+  }
+  
+  .div1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  #b4, #b5 {
+    background-color: rgb(215, 172, 255);
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    transform: scale(110%);
+    transition: transform 0.2s ease;
+  }
+  

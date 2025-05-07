@@ -160,3 +160,12 @@ button:hover{
 .registrar h2 {
     font-size: 46px;
 }
+
+.registrar a {
+    margin: 1%;
+    padding: 1%;
+    border-radius: 30px;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+}

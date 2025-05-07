@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registrar nuevo evento</title>
+  <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <div class="registrar" id="evento1">
+        <h2>Registrar nuevo evento</h2>
+        <p>Completa el formulario para registrar un nuevo evento de emprendimiento</p>
+      
+        <form id="formulario">
+          <label for="nombre">Nombre del evento *</label>
+          <input type="text" id="nombre" required value="Feria de Emprendimiento BucaraEmprende 2025">
+      
+          <label for="lugar">Lugar *</label>
+          <input type="text" id="lugar" required value="Centro de Convenciones Neomundo">
+      
+          <div class="div1">
+            <div style="flex: 1; margin-right: 10px;">
+              <label for="fechaInicio">Fecha de inicio *</label>
+              <input type="date" id="fechaInicio" required>
+            </div>
+            <div style="flex: 1;">
+              <label for="fechaFin">Fecha de finalización *</label>
+              <input type="date" id="fechaFin" required>
+            </div>
+          </div>
+      
+          <label for="horario">Horario *</label>
+          <input type="text" id="horario" placeholder="9:00 AM - 7:00 PM" required>
+      
+          <div class="botones">
+            <button type="button" id="b4">Cancelar</button>
+            <button type="submit" id="b5">Registrar evento</button>
+          </div>
+        </form>
+      </div>
+      
+
+  <script src="registro.js"></script>
+</body>
+</html>
